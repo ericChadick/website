@@ -7,6 +7,15 @@
 h1 {text-align: center;}
 p {text-align: left;}
 div {text-align: center;}
+
+ .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+  
 </style>
  
 <body>
@@ -20,6 +29,21 @@ div {text-align: center;}
     I enjoy taking the lead on creative projects and ensuring progress over time. I’ve created games with like-minded people in the past, and have found myself taking on multiple roles including programming, game design, 2D and 3D art, audio, and project management. Sharing my own personal insights with others as a way to collaborate is something I find enjoyment in, since sharing ideas and solutions to problems plays a crucial role in anything creative.
     As a game developer, I think having experience in many areas gives me the necessary knowledge needed to function within a team and contribute in a variety of ways. Having an understanding of how something is made from ideation all the way to publishing is a critical skill for working in a team and understanding how important consistent progress, commitment, and effective communication is to ensure that projects are completed. I believe that my ability in being able to work both with a team and also by myself, filling many different roles demonstrates my breadth of experience and knowledge.
     </p>
+
+     <button class="accordion">Section 1</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button class="accordion">Section 3</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
  
     <div class="dropdown">
      <link rel="stylesheet" href="style.css">
@@ -33,8 +57,24 @@ div {text-align: center;}
    </div>
  
     <script> 
-       //document.getElementById('message').innerHTML = 'Hello World I am alive';
-     
+    //Handles accordion list
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+
+    //Handles dropdown list
     /* When the user clicks on the button,
     toggle between hiding and showing the dropdown content */
     function myFunction() {
@@ -53,6 +93,7 @@ div {text-align: center;}
         }
       }
     }
+     
     </script>
  
 <img src = "images/icon.png"> </img>
