@@ -58,7 +58,7 @@ h2 {
 }
 /*--- Start Parallax Style --*/
 .parallax {
-	background: url("parallax-2.jpg") repeat fixed 100%;
+	background: url("images/grasslowres.png") repeat fixed 100%;
 	text-align: center;
 }
 .parallax-inner {
