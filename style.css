@@ -35,41 +35,6 @@
 }
 
 
-/* PARLAAX*/
-* {
-	margin: 0;
-	border: 0;
-	padding: 0;
-}
-h1 {
-	text-align: center;
-	font-size: 575%;
-	color: #4A4444;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin: 45% 0;
-}
-h2 {
-	text-align: center;
-	font-size: 275%;
-	color: #E5E5E5;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-}
-/*--- Start Parallax Style --*/
-.parallax {
-	background: url("images/grasslowres.png") repeat fixed 100%;
-	text-align: center;
-}
-.parallax-inner {
-	padding-top: 210px;
-	padding-bottom: 210px;
-}
-/*--- End Parallax Style --*/
-
-/* PARLAAX*/
-
-
 
 .icon-bar {
   width: 100%; /* Full-width */
