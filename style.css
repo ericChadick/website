@@ -42,7 +42,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 12px; /* Some top and bottom padding */
+  padding: 24px; /* Some top and bottom padding */
 }
 
 .icon-bar a {
