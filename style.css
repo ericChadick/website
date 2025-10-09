@@ -37,7 +37,7 @@
 
 
 .icon-bar {
-  width: 40%; /* Full-width */
+  width: 25%; /* Full-width */
   /*background-color: #555; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
   display: block;
@@ -49,7 +49,7 @@
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 12px 0; /* Some top and bottom padding */
+  padding: 12px; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   /*color: white; /* White text color */
   font-size: 36px; /* Increased font size */
