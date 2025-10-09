@@ -37,7 +37,7 @@
 
 
 .icon-bar {
-  width: 100%; /* Full-width */
+  width: 40%; /* Full-width */
   background-color: #555; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
