@@ -90,10 +90,10 @@
 /* Position the "next button" to the right */
 .next {
   margin-left: auto;
-  margin-right: 32;
+  margin-right: 0;
 }
 .prev {
-  margin-left: -32;
+  margin-left: 0;
   margin-right: auto;
 }
 
