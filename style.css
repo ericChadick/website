@@ -37,7 +37,7 @@
 
 
 .icon-bar {
-  width: 25%; /* Full-width */
+  width: 15%; /* Full-width */
   overflow: auto; /* Overflow due to float */
   display: block;
   margin-left: auto;
