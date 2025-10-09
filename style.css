@@ -89,10 +89,10 @@
 
 /* Position the "next button" to the right */
 .next {
-  float: right;
+  right: 0;
 }
 .prev {
-  float: left;
+  margin-right: auto;
 }
 
 /* On hover, add a black background color with a little bit see-through */
